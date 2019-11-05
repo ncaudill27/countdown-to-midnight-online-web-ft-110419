@@ -4,17 +4,19 @@ require 'pry'
 def countdown(seconds)
   count = seconds
   its_time = 0
+  
   while count > its_time do
     puts "#{count} SECONDS(S)!"
     count -= 1
   end
 
-"HAPPY NEW YEAR!" if count == its_time
+puts "HAPPY NEW YEAR!" if count == its_time
 end
 
 def countdown_with_sleep(seconds)
   count = seconds
   its_time = 0
+  
   while count > its_time do
     p "#{count} SECONDS(S)!"
     count -= 1
