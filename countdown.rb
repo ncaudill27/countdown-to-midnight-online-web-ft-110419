@@ -20,7 +20,3 @@ def countdown_with_sleep(seconds)
 
 "HAPPY NEW YEAR!"
 end
-
-countdown(10)
-
-countdown_with_sleep(5)
