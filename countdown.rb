@@ -2,11 +2,10 @@ require 'pry'
 #write your code here
 
 def countdown(seconds)
-  count = seconds
   
-  until count == 0 do
+  until seconds == 0 do
     puts "#{count} SECONDS(S)!"
-    count -= 1
+    seconds -= 1
   end
 
 "HAPPY NEW YEAR!"
