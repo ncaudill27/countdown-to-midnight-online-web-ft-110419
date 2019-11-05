@@ -5,7 +5,7 @@ def countdown(seconds)
   count = seconds
   
   until count == 0 do
-    puts("#{count} SECONDS(S)!")
+    puts("#{count}SECONDS(S)!")
     count -= 1
   end
 
