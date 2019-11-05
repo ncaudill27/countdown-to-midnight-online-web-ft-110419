@@ -4,7 +4,7 @@ require 'pry'
 def countdown(seconds)
   count = seconds
   
-  while count > 0 do
+  until count == 0 do
     puts "#{count} SECONDS(S)!"
     count -= 1
   end
