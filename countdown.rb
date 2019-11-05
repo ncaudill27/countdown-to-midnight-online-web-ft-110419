@@ -22,5 +22,4 @@ def countdown_with_sleep(seconds)
   end
 
 "HAPPY NEW YEAR!" if count == its_time
-
 end
