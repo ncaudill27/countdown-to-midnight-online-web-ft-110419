@@ -5,7 +5,7 @@ def countdown(seconds)
   count = seconds
   its_time = 0
   while count > its_time do
-    p "#{count} SECONDS(S)!"
+    puts "#{count} SECONDS(S)!"
     count -= 1
   end
 
