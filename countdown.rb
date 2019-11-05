@@ -7,7 +7,6 @@ def countdown(seconds)
   while count > its_time do
     puts "#{count} SECONDS(S)!"
     count -= 1
-    binding.pry
   end
 
 "HAPPY NEW YEAR!" if count == its_time
